@@ -11,35 +11,35 @@ const Main = () => {
         <Row>
           <Col sm={6}>
             <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            Bild 1
+            <p>Vad är det för produkt?</p>
           </Col>
           <Col sm={6}>
             <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            Bild 1
+            <p>Vad är det för produkt?</p>
           </Col>
           <Col sm={6}>
             <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            Bild 1
+            <p>Vad är det för produkt?</p>
           </Col>
           <Col sm={6}>
             <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            Bild 1
+            <p>Vad är det för produkt?</p>
           </Col>
           <Col sm={6}>
             <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            Bild 1
+            <p>Vad är det för produkt?</p>
           </Col>
           <Col sm={6}>
             <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            Bild 1
+            <p>Vad är det för produkt?</p>
           </Col>
           <Col sm={6}>
             <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            Bild 1
+            <p>Vad är det för produkt?</p>
           </Col>
           <Col sm={6}>
             <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            Bild 1
+            <p>Vad är det för produkt?</p>
           </Col>
 
 
