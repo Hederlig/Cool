@@ -1,16 +1,18 @@
 
 import './App.css';
-import Header from "./components/Header/Header.jsx";
+import Sidebar from "./components/Header/Sidebar";
 import Main from "./components/Main/Main"
 import Hero from "./components/Hero/Hero"
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+
 function App() {
   
   return (
-       <div>
-        <Header />
+       <Router>
+        <Sidebar />
         <Hero />
         <Main />
-      </div>
+      </Router>
   );
 
 }
