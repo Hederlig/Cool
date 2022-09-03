@@ -1,0 +1,13 @@
+.heroText{
+    display: flex;
+    text-align: center;
+}
+
+.Buttons {
+    display: block;
+    align-items: center;
+    width: "100px";
+    height: "50px";
+    
+}
+
