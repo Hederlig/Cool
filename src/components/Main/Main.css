@@ -82,3 +82,13 @@
 .bottom-buttons a:hover {
     color: blue;
 }
+
+.bottom-buttons button {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.bottom-buttons div {
+    color: white;
+}
