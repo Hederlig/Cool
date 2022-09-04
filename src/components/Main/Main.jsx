@@ -1,6 +1,10 @@
 import "./Main.css";
+import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Collapse from 'react-bootstrap/Collapse';
 
 const Main = () => {
+  const [open, setOpen] = useState(false);
   return (
     <div className="main-container">
       <form className="top-buttons">
@@ -34,7 +38,18 @@ const Main = () => {
         </div>
       </div>
       <form className="bottom-buttons">
-        <a href="#more">MER</a>
+      <Button
+        onClick={() => setOpen(!open)}
+        aria-controls="example-collapse-text"
+        aria-expanded={open}
+      >
+        Mer
+      </Button>
+      <Collapse in={open}>
+        <div id="example-collapse-text">
+          Här kommer fler produkter att visas när man trycker på knappen.
+        </div>
+      </Collapse>
       </form>
     </div>
   );
