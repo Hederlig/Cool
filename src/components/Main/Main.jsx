@@ -1,67 +1,41 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import "./Main.css";
 
 const Main = () => {
   return (
-    <div>
-      <Container>
-        <Col>
-        <div className="topButtons">
-          <Button variant="primary" size="lg">
-            Nyheter{" "}
-          </Button>
-          <Button variant="primary" size="lg">
-            REA{" "}
-          </Button>
-          </div>
-        </Col>
-        <Row>
-          <Col sm={6}>
-            <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            <p>Vit T-tröja</p>
-          </Col>
-          <Col sm={6}>
-            <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            <p>Svart Hoodie</p>
-          </Col>
-          <Col sm={6}>
-            <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            <p>Stentvättade Jeans</p>
-          </Col>
-          <Col sm={6}>
-            <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            <p>Rosa Skor</p>
-          </Col>
-          <Col sm={6}>
-            <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            <p>Lila Kjol</p>
-          </Col>
-          <Col sm={6}>
-            <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            <p>Läder Jacka</p>
-          </Col>
-          <Col sm={6}>
-            <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            <p>Svarta Skor</p>
-          </Col>
-          <Col sm={6}>
-            <img src="https://via.placeholder.com/240x320" alt="Tshirt" />
-            <p>Gant Piké</p>
-          </Col>
-
-          <Col sm={12}>
-            <div className="moreButton">
-              <Button variant="primary" size="lg">
-                Visa mer
-              </Button>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+    <div className="main-container">
+      <form className="top-buttons">
+        <a href="#news">NYHETER</a>
+        <a href="#mer">SE MER</a>
+      </form>
+      <div className="front-page-grid">
+        <div>
+          <img src="https://i.gyazo.com/3a38bbc133ccfe999750c5caa1b139ea.png" alt="Tshirt" />
+          <p>T-Shirt - Vit</p>
+        </div>
+        <div>
+          <img src="https://i.gyazo.com/ed8d789c394fa1926942e2a6c061755e.png" alt="Shoodie" />
+          <p>Hoodie - Svart</p>
+        </div>
+        <div>
+          <img src="https://i.gyazo.com/992aa4bfce97653e42f7ae13384b9f76.png" alt="Sjeans" />
+          <p>Jeans - Stentvättade</p>
+        </div>
+        <div>
+          <img src="https://i.gyazo.com/8aba6b2d2ed617fe460f5081966c8e57.jpg" alt="Rskor" />
+          <p>Skor - Rosa</p>
+        </div>
+        <div>
+          <img src="https://i.gyazo.com/e3068cf4fd58dfbe25c0e72bfd30ee8a.png" alt="Lkjol" />
+          <p>Kjol - Lila</p>
+        </div>
+        <div>
+          <img src="https://i.gyazo.com/0170b0147c0a67f40487d4797889a4f5.jpg" alt="Ljacka" />
+          <p>Jacka - Läder</p>
+        </div>
+      </div>
+      <form className="bottom-buttons">
+        <a href="#more">MER</a>
+      </form>
     </div>
   );
 };

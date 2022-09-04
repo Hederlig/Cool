@@ -1,13 +1,54 @@
-.heroText{
+.hero {
+    border-bottom: 1px solid black;
+    height: 300px;
+    width: 100%;
+    background-image: url(https://night-city.uz/sitepad-data/uploads/2021/02/hero_bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.background {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    left: 30px;
+    height: 300px;
+    width: 50%;
+    background-color: rgb(227, 227, 227);
+    opacity: 0.7;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -30px;
+    width: 100%;
+    font-size: 25px;
+    color: black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px;
+}
+
+.buttons > a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 65px;
+    height: 25px;
     text-align: center;
 }
 
-.Buttons {
-    display: block;
-    align-items: center;
-    width: "100px";
-    height: "50px";
-    
+.buttons > a:hover {
+    color: blue;
 }
-

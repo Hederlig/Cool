@@ -1,9 +1,84 @@
-.topButtons{
-    align-items: center;
-    display: flex;
+.main-container {
+    background-color: #565656;
 }
 
-.moreButton{
-    align-items: center;
+.top-buttons {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    justify-content: space-between;
+    padding: 30px 0px;
+    margin: 0px 130px;
+}
+
+.top-buttons a {
+    display: grid;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+    height: 35px;
+    padding-top: 5px;
+    background-color: black;
+    box-shadow: 5px 5px 3px rgb(63, 62, 62);
+    border: 1px solid rgb(103, 102, 102);
+}
+
+.top-buttons a:hover {
+    color: blue;
+}
+
+.front-page-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.front-page-grid img {
+    height: 300px;
+    width: 250px;
+}
+
+.front-page-grid img:hover {
+    cursor: pointer;
+}
+
+.front-page-grid div {
+    display: grid;
+    justify-content: center;
+}
+
+.front-page-grid div p {
+    display: grid;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 35px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.front-page-grid div p:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.bottom-buttons {
     display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.bottom-buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    width: 50px;
+    text-align: center;
+    padding-right: 2px;
+    border: 1px solid rgb(103, 102, 102);
+    box-shadow: 5px 5px 3px rgb(63, 62, 62);
+}
+
+.bottom-buttons a:hover {
+    color: blue;
 }
