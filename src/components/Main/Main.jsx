@@ -9,7 +9,7 @@ const Main = () => {
     <div className="main-container">
       <form className="top-buttons">
         <a href="#news">NYHETER</a>
-        <a href="#mer">SE MER</a>
+        <a href="#mer">REA</a>
       </form>
       <div className="front-page-grid">
         <div>
@@ -29,8 +29,8 @@ const Main = () => {
           <p>Skor - Rosa</p>
         </div>
         <div>
-          <img src="https://i.gyazo.com/e3068cf4fd58dfbe25c0e72bfd30ee8a.png" alt="Lkjol" />
-          <p>Kjol - Lila</p>
+          <img src="https://gyazo.com/e79438e950406bf7c91b101daa9574c3.jpg" alt="toppar" />
+          <p>Toppar - 2 pack</p>
         </div>
         <div>
           <img src="https://i.gyazo.com/0170b0147c0a67f40487d4797889a4f5.jpg" alt="Ljacka" />

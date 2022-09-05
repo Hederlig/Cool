@@ -50,7 +50,7 @@ export const SidebarData = [
     iconOpened: <RiIcons.RiArrowUpSFill />,
     subNav: [
       {
-        title: 'Topper',
+        title: 'Toppar',
         path: '/tjejer/toppar'
       },
       {
