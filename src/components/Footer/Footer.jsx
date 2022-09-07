@@ -1,7 +1,7 @@
 import "./Footer.css";
 import styled from 'styled-components';
 import * as BsIcons from 'react-icons/bs';
-
+import { Link } from "react-router-dom";
 
 const SocialBar = styled.div`
     display: flex;
@@ -36,7 +36,7 @@ const Footer = () => {
               <b>OM OSS</b>
               <b>KÖPVILLKOR</b>
               <b>FRAKTINFO</b>
-              <b>KONTAKT</b>
+              <Link to="/contacts">KONTAKT</Link>
             </div>
             <div className="paymethods">
               <img className="klarna" src={require('./logos/Klarnalogo.png')} alt="klarna" />

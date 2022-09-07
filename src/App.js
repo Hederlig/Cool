@@ -1,23 +1,19 @@
-import './App.css';
-import Sidebar from "./components/Header/Sidebar";
-import Main from "./components/Main/Main"
-import Hero from "./components/Hero/Hero"
-import Footer from "./components/Footer/Footer"
-import TopBar from "./components/Header/TopBar/TopBar"
-import {BrowserRouter as Router} from 'react-router-dom'
+import "./App.css";
+import Home from "./components/Home.jsx"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Contact from "./Pages/Contact/ContactPage";
 
 function App() {
-  
   return (
-       <Router>
-        <TopBar />
-        <Sidebar />
-        <Hero />
-        <Main />
-        <Footer />
-      </Router>
-  );
+    <BrowserRouter>
 
+      <Routes>
+        <Route path="/" element={<Home />}  />
+        <Route path="/contacts" element={<Contact />}  />
+        <Route path="/test" element={( <div><h1>Hello</h1></div>)}  />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
