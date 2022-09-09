@@ -38,13 +38,13 @@ export const SidebarData = [
       },
       {
         title: 'Mer..',
-        path: '/killar/mer..'
+        path: '/killar/mer'
       }
     ]
   },
   {
     title: 'Tjejer',
-    path: '/tjejer',
+    path: '',
     icon: <BiIcons.BiFemale />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -67,13 +67,13 @@ export const SidebarData = [
       },
       {
         title: 'Mer..',
-        path: '/tjejer/mer..'
+        path: '/tjejer/mer'
       }
     ]
   },
   {
     title: 'Skor',
-    path: '/skor',
+    path: '',
     icon: <GiIcons.GiRunningShoe />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,

@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from "react-router-dom";
+import React from "react";
+import { Link } from 'react-router-dom'
 
 const TopBar = () => {
   return (
@@ -9,20 +9,25 @@ const TopBar = () => {
         height: "60px",
         background: "black",
         borderBottom: "1px solid white"
-      }}>
-
-        <Link  style={{
-            display: "flex",
-            justifyContent: "center",
-            textDecoration: "none",
-            color: "white",
-            fontSize: "2rem",
-            paddingTop: "5px",
-            fontFamily: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
-        }}  
-        to="/">Cool Fashion</Link>
+      }}
+    >
+      <Link to="/"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          textDecoration: "none",
+          color: "white",
+          fontSize: "2rem",
+          paddingTop: "5px",
+          fontFamily:
+            "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
+        }}
+        href="#home"
+      >
+        Cool Fashion
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default TopBar
+export default TopBar;

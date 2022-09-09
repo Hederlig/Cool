@@ -1,0 +1,57 @@
+.navbar-title {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.navbar-filter {
+    color: white;
+    margin-left: 50px;
+    width: 45px;
+    position: relative;
+    top: -32px;
+}
+
+.navbar-filter:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.navbar-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+}
+
+.navbar-header a {
+    text-decoration: none;
+}
+
+.navbar-header img {
+    height: 300px;
+    width: 250px;
+}
+
+.navbar-header img:hover {
+    cursor: pointer;
+}
+
+.navbar-header div {
+    display: grid;
+    justify-content: center;
+}
+
+.navbar-header div p {
+    display: grid;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 35px;
+    color: white;
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.navbar-header div p:hover {
+    cursor: pointer;
+    color: blue;
+}

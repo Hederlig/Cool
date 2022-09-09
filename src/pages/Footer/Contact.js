@@ -1,5 +1,4 @@
 import Sidebar from "../../components/Header/Sidebar";
-import Hero from "../../components/Hero/Hero";
 import Footer from "../../components/Footer/Footer";
 import TopBar from "../../components/Header/TopBar/TopBar";
 import Form from "react-bootstrap/Form";
@@ -12,6 +11,7 @@ import DropdownButton from "react-bootstrap/DropdownButton";
 import Dropdown from "react-bootstrap/Dropdown";
 import "./ContactPage.css";
 
+<<<<<<< HEAD:src/Pages/Contact/ContactPage.jsx
 const ContactPage = () => {
   const [validated, setValidated] = useState(false);
 
@@ -127,6 +127,14 @@ const ContactPage = () => {
       </Form>
 
       {/* <Form>
+=======
+const Contact = () => {
+  return (
+    <div>
+        <TopBar />
+        <Sidebar />
+        <Form>
+>>>>>>> fa0bfb95713b18611c543d407ffb0ea2c71572cd:src/pages/Footer/Contact.js
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="name@example.com" />
@@ -142,4 +150,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default Contact;
