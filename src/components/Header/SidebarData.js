@@ -22,7 +22,7 @@ export const SidebarData = [
       },
       {
         title: 'T-Shirts',
-        path: '/killar/t-shirts'
+        path: '/killar/tshirts'
       },
       {
         title: 'Hoodies',
