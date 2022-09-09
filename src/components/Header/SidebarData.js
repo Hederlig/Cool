@@ -6,7 +6,7 @@ import * as GiIcons from 'react-icons/gi'
 export const SidebarData = [
   {
     title: 'Killar',
-    path: '/killar',
+    path: '',
     icon: <BiIcons.BiMale />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
