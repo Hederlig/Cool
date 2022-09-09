@@ -1,23 +1,21 @@
 .input-group {
-    position: initial;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    width: 100%;
-    justify-content: center;
+  position: initial;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+  justify-content: center;
 }
 
-.btn-primary { 
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    border-radius: 10px;
+.btn-primary {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
 
-    text-align: center;
+  text-align: center;
 }
 
-p { 
-    
-    
-    text-align: center;
+p {
+  text-align: center;
 }

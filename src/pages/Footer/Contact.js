@@ -25,17 +25,20 @@ const ContactPage = () => {
     setValidated(true);
   };
   const [count, setCount] = useState(0);
-  
-//   changeValue(text) {
-//    this.setState({ Subject: text });
-//  };
 
-  // this.state = {
-  //   dropDownValue: "Select Subject"
-  // };
-  const handleSelect=(e)=>{
+  const handleSelect = (e) => {
     console.log(e);
-  }
+  };
+
+const [value,setValue]=useState('Subject');
+       
+ const handleChoice=(e)=>{
+   console.log(e);
+    setValue(e)
+   }
+
+
+
   return (
     <div>
       <TopBar />
@@ -43,32 +46,28 @@ const ContactPage = () => {
       <Hero />
       <DropdownButton
         id="dropdown-basic-button"
-        title="Subject"
+        title={value}
+        onSelect={handleChoice}
         style={{
           display: "flex",
           justifyContent: "center",
         }}
       >
-        <Dropdown.Item as="button">
-          <div onClick={(e) => this.changeValue(e.target.textContent)}>
-            Question
-          </div>
+        <Dropdown.Item as="button" eventKey="Question">
+          Question
         </Dropdown.Item>
-        <Dropdown.Item as="button">
-          <div onClick={(e) => this.changeValue(e.target.textContent)}>
-            Business
-          </div>
+
+        <Dropdown.Item as="button" eventKey="Business">
+          Business
         </Dropdown.Item>
-        <Dropdown.Item as="button">
-          <div onClick={(e) => this.changeValue(e.target.textContent)}>
-            Shipping
-          </div>
+        <Dropdown.Item as="button" eventKey="Shipping">
+          Shipping
         </Dropdown.Item>
       </DropdownButton>
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
         <Row className="mb-3">
           <InputGroup hasValidation>
-            <Form.Group as={Col} md="4" controlId="validationEmail">
+            <Form.Group as={Col} md="4" >
               <Form.Control
                 required
                 type="text"
@@ -80,7 +79,7 @@ const ContactPage = () => {
 
               <Form.Group
                 className="mb-3"
-                controlId="exampleForm.ControlTextarea1"
+                
               >
                 <Form.Label
                   style={{
@@ -100,11 +99,8 @@ const ContactPage = () => {
                   onChange={(e) => setCount(e.target.value.length)}
                   required
                   as="textarea"
-                  
-                  
                 />
                 <p>{count}/400</p>
-               
               </Form.Group>
             </Form.Group>
           </InputGroup>
@@ -121,7 +117,9 @@ const ContactPage = () => {
             />
           </InputGroup>
           <InputGroup>
-            <Button type="submit" onSelect={handleSelect}>Submit form</Button>
+            <Button type="submit" onSelect={handleSelect}>
+              Submit form
+            </Button>
           </InputGroup>
         </Form.Group>
       </Form>
