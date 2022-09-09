@@ -25,14 +25,6 @@ export const SidebarData = [
         path: '/killar/t-shirts'
       },
       {
-        title: 'Långarmat',
-        path: '/killar/langarmat'
-      },
-      {
-        title: 'Stickat',
-        path: '/killar/stickat'
-      },
-      {
         title: 'Hoodies',
         path: '/killar/hoodies'
       },
