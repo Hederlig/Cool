@@ -5,9 +5,9 @@
     background-image: url(https://night-city.uz/sitepad-data/uploads/2021/02/hero_bg_1.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-}
-
-.background {
+  }
+  
+  .background {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,9 +21,9 @@
     border-right: 1px solid black;
     border-left: 1px solid black;
     border-bottom: 1px solid black;
-}
-
-.text1 {
+  }
+  
+  .text1 {
     display: flex;
     justify-content: center;
     position: relative;
@@ -31,15 +31,15 @@
     width: 100%;
     font-size: 25px;
     color: black;
-}
-
-.buttons {
+  }
+  
+  .buttons {
     display: flex;
     justify-content: space-between;
     margin: 0px 35px;
-}
-
-.buttons > a {
+  }
+  
+  .buttons > a {
     text-decoration: none;
     color: white;
     background-color: black;
@@ -47,8 +47,9 @@
     width: 65px;
     height: 25px;
     text-align: center;
-}
-
-.buttons > a:hover {
+  }
+  
+  .buttons > a:hover {
     color: blue;
-}
+  }
+  

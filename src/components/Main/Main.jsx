@@ -1,7 +1,8 @@
 import "./Main.css";
-import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Collapse from 'react-bootstrap/Collapse';
+import React, { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Collapse from "react-bootstrap/Collapse";
+import { Link } from 'react-router-dom'
 
 const Main = () => {
   const [open, setOpen] = useState(false);
@@ -13,43 +14,73 @@ const Main = () => {
       </form>
       <div className="front-page-grid">
         <div>
-          <img src="https://i.gyazo.com/3a38bbc133ccfe999750c5caa1b139ea.png" alt="Tshirt" />
-          <p>T-Shirt - Vit</p>
+          <Link to="/ProductPage">
+            <img
+              src="https://i.gyazo.com/3a38bbc133ccfe999750c5caa1b139ea.png"
+              alt="Tshirt"
+            />
+            <p>T-Shirt - Vit</p>
+          </Link>
         </div>
         <div>
-          <img src="https://i.gyazo.com/ed8d789c394fa1926942e2a6c061755e.png" alt="Shoodie" />
-          <p>Hoodie - Svart</p>
+          <Link to="/ProductPage">
+            <img
+              src="https://i.gyazo.com/ed8d789c394fa1926942e2a6c061755e.png"
+              alt="Shoodie"
+            />
+            <p>Hoodie - Svart</p>
+          </Link>
         </div>
         <div>
-          <img src="https://i.gyazo.com/992aa4bfce97653e42f7ae13384b9f76.png" alt="Sjeans" />
-          <p>Jeans - Stentvättade</p>
+          <Link to="/ProductPage">
+            <img
+              src="https://i.gyazo.com/992aa4bfce97653e42f7ae13384b9f76.png"
+              alt="Sjeans"
+            />
+            <p>Jeans - Stentvättade</p>
+          </Link>
         </div>
         <div>
-          <img src="https://i.gyazo.com/8aba6b2d2ed617fe460f5081966c8e57.jpg" alt="Rskor" />
-          <p>Skor - Rosa</p>
+          <Link to="/ProductPage">
+            <img
+              src="https://i.gyazo.com/8aba6b2d2ed617fe460f5081966c8e57.jpg"
+              alt="Rskor"
+            />
+            <p>Skor - Rosa</p>
+          </Link>
         </div>
         <div>
-          <img src="https://gyazo.com/e79438e950406bf7c91b101daa9574c3.jpg" alt="toppar" />
-          <p>Toppar - 2 pack</p>
+          <Link to="/ProductPage">
+            <img
+              src="https://gyazo.com/e79438e950406bf7c91b101daa9574c3.jpg"
+              alt="toppar"
+            />
+            <p>Toppar - 2 pack</p>
+          </Link>
         </div>
         <div>
-          <img src="https://i.gyazo.com/0170b0147c0a67f40487d4797889a4f5.jpg" alt="Ljacka" />
-          <p>Jacka - Läder</p>
+          <Link to="/ProductPage">
+            <img
+              src="https://i.gyazo.com/0170b0147c0a67f40487d4797889a4f5.jpg"
+              alt="Ljacka"
+            />
+            <p>Jacka - Läder</p>
+          </Link>
         </div>
       </div>
       <form className="bottom-buttons">
-      <Button
-        onClick={() => setOpen(!open)}
-        aria-controls="example-collapse-text"
-        aria-expanded={open}
-      >
-        Mer
-      </Button>
-      <Collapse in={open}>
-        <div id="example-collapse-text">
-          Här kommer fler produkter att visas när man trycker på knappen.
-        </div>
-      </Collapse>
+        <Button
+          onClick={() => setOpen(!open)}
+          aria-controls="example-collapse-text"
+          aria-expanded={open}
+        >
+          Mer
+        </Button>
+        <Collapse in={open}>
+          <div id="example-collapse-text">
+            Här kommer fler produkter att visas när man trycker på knappen.
+          </div>
+        </Collapse>
       </form>
     </div>
   );

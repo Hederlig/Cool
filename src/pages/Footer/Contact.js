@@ -1,17 +1,15 @@
 import Sidebar from "../../components/Header/Sidebar";
-import Hero from "../../components/Hero/Hero";
 import Footer from "../../components/Footer/Footer";
 import TopBar from "../../components/Header/TopBar/TopBar";
 import Form from 'react-bootstrap/Form';
 
 
 
-const ContactPage = () => {
+const Contact = () => {
   return (
     <div>
         <TopBar />
         <Sidebar />
-        <Hero />
         <Form>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Email address</Form.Label>
@@ -28,4 +26,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage;
+export default Contact;
