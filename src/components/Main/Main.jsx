@@ -9,8 +9,8 @@ const Main = () => {
   return (
     <div className="main-container">
       <form className="top-buttons">
-        <a href="#news">NYHETER</a>
-        <a href="#mer">REA</a>
+        <Link to="/New">NYHETER</Link>
+        <Link to="/Sale">REA</Link>
       </form>
       <div className="front-page-grid">
         <div>

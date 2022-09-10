@@ -1,0 +1,102 @@
+.show-btn {
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.show-btn {
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
+input[type="checkbox"]{
+    position: absolute;
+    top: -100px;
+    display: none;
+}
+
+#show:checked ~ .container{
+    display: block;
+}
+
+.container {
+    display: none;
+    width: 350px;
+    padding: 20px;
+    border-radius: 4px;
+    background: rgb(5, 5, 5);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.container {
+    position:absolute;
+    top: 60px;
+    left: 10px;
+}
+
+.container .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.close-btn:hover{
+    color: red;
+}
+
+.login-container form {
+    margin: 20px;
+}
+
+.login-container label {
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.login-container input {
+    display: block;
+    width: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    color: white;
+}
+
+.login-container button {
+    display: block;
+    width: 95%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #505050, #191919 );
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.login-container button:hover {
+    background: rgb(57, 76, 124);
+}
+
+.login-container a {
+    text-decoration: none;
+    color: #9d9d9d;
+}
+
+.link {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}

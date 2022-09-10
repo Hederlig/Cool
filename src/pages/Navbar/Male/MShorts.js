@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import Sidebar from "../../../components/Header/Sidebar";
 import Footer from "../../../components/Footer/Footer";
 import TopBar from "../../../components/Header/TopBar/TopBar";
+import LoginForm from "../../../components/Header/LoginForm/LoginForm";
 
 function MShorts() {
   return (
@@ -68,6 +69,7 @@ function MShorts() {
           </Link>
         </div>
       </div>
+      <LoginForm />
       <Footer />
     </div>
   );

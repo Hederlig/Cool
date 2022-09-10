@@ -1,33 +1,33 @@
 import React from "react";
-import '../styling/styling.css'
+import '../Navbar/styling/styling.css'
 import { Link } from 'react-router-dom'
-import Sidebar from "../../../components/Header/Sidebar";
-import Footer from "../../../components/Footer/Footer";
-import TopBar from "../../../components/Header/TopBar/TopBar";
-import LoginForm from "../../../components/Header/LoginForm/LoginForm";
+import Sidebar from "../../components/Header/Sidebar";
+import Footer from "../../components/Footer/Footer";
+import TopBar from "../../components/Header/TopBar/TopBar";
+import LoginForm from "../../components/Header/LoginForm/LoginForm";
 
-function MJeans() {
+function New() {
   return (
-    <div className="mjeans">
+    <div className="new">
       <TopBar />
       <Sidebar />
-      <h1 className="navbar-title">Jeans</h1>
+      <h1 className="navbar-title">Nyheter</h1>
       <p className="navbar-filter">Filter</p>
       <div className="navbar-header">
         <div>
           <Link to="/ProductPage">
             <img
-              src="https://gyazo.com/eb4c1a53c7621efa932c6b66fa25ddd4.jpg"
-              alt="MJeans"
+              src="https://gyazo.com/7120ce79ad3c3eac17559bc2d7199d23.png"
+              alt="Jeans"
             />
             <p>Jeans - Svart</p>
           </Link>
         </div>
         <div>
-          <Link to="/ProductPage">
+          <Link to="/ProductPage"> 
             <img
               src="https://gyazo.com/eb4c1a53c7621efa932c6b66fa25ddd4.jpg"
-              alt="MJeans"
+              alt="Jeans"
             />
             <p>Jeans - Blå</p>
           </Link>
@@ -36,7 +36,7 @@ function MJeans() {
           <Link to="/ProductPage">
             <img
               src="https://gyazo.com/eb4c1a53c7621efa932c6b66fa25ddd4.jpg"
-              alt="MJeans"
+              alt="Jeans"
             />
             <p>Jeans - Marinblå</p>
           </Link>
@@ -44,8 +44,8 @@ function MJeans() {
         <div>
           <Link to="/ProductPage">
             <img
-              src="https://gyazo.com/eb4c1a53c7621efa932c6b66fa25ddd4.jpg"
-              alt="MJeans"
+              src="https://gyazo.com/7120ce79ad3c3eac17559bc2d7199d23.png"
+              alt="Jeans"
             />
             <p>Jeans - Ljusblå</p>
           </Link>
@@ -54,7 +54,7 @@ function MJeans() {
           <Link to="/ProductPage">
             <img
               src="https://gyazo.com/eb4c1a53c7621efa932c6b66fa25ddd4.jpg"
-              alt="MJeans"
+              alt="Jeans"
             />
             <p>Jeans - Grå</p>
           </Link>
@@ -62,8 +62,8 @@ function MJeans() {
         <div>
           <Link to="/ProductPage">
             <img
-              src="https://gyazo.com/eb4c1a53c7621efa932c6b66fa25ddd4.jpg"
-              alt="MJeans"
+              src="https://gyazo.com/7120ce79ad3c3eac17559bc2d7199d23.png"
+              alt="Jeans"
             />
             <p>Jeans - Mörkgrå</p>
           </Link>
@@ -75,4 +75,4 @@ function MJeans() {
   );
 }
 
-export default MJeans;
+export default New;

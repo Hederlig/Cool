@@ -11,6 +11,7 @@ import Row from "react-bootstrap/Row";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import Dropdown from "react-bootstrap/Dropdown";
 import "./ContactPage.css";
+import LoginForm from "../../components/Header/LoginForm/LoginForm";
 
 const ContactPage = () => {
   const [validated, setValidated] = useState(false);
@@ -136,7 +137,7 @@ const ContactPage = () => {
         <Form.Control as="textarea" rows={3} />
       </Form.Group>
     </Form> */}
-
+      <LoginForm />
       <Footer />
     </div>
   );

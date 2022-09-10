@@ -6,28 +6,27 @@ import Footer from "../../components/Footer/Footer";
 import TopBar from "../../components/Header/TopBar/TopBar";
 import LoginForm from "../../components/Header/LoginForm/LoginForm";
 
-function Jeans() {
+function Sale() {
   return (
-    <div className="jeans">
+    <div className="sale">
       <TopBar />
       <Sidebar />
-      <h1 className="navbar-title">Clothes with attitude</h1>
-      <h1 className="navbar-title">Jeans</h1>
+      <h1 className="navbar-title">Rea</h1>
       <p className="navbar-filter">Filter</p>
       <div className="navbar-header">
         <div>
           <Link to="/ProductPage">
             <img
-              src="https://gyazo.com/7120ce79ad3c3eac17559bc2d7199d23.png"
+              src="https://gyazo.com/82e3222b7c474921cde322e503b69a88.png"
               alt="Jeans"
             />
-            <p>Jeans - Svart</p>
+            <p>Tröja - Svart</p>
           </Link>
         </div>
         <div>
           <Link to="/ProductPage"> 
             <img
-              src="https://gyazo.com/eb4c1a53c7621efa932c6b66fa25ddd4.jpg"
+              src="https://gyazo.com/82e3222b7c474921cde322e503b69a88.png"
               alt="Jeans"
             />
             <p>Jeans - Blå</p>
@@ -36,37 +35,37 @@ function Jeans() {
         <div>
           <Link to="/ProductPage">
             <img
-              src="https://gyazo.com/eb4c1a53c7621efa932c6b66fa25ddd4.jpg"
+              src="https://gyazo.com/82e3222b7c474921cde322e503b69a88.png"
               alt="Jeans"
             />
-            <p>Jeans - Marinblå</p>
+            <p>Hoodie - Marinblå</p>
           </Link>
         </div>
         <div>
           <Link to="/ProductPage">
             <img
-              src="https://gyazo.com/7120ce79ad3c3eac17559bc2d7199d23.png"
+              src="https://gyazo.com/82e3222b7c474921cde322e503b69a88.png"
               alt="Jeans"
             />
-            <p>Jeans - Ljusblå</p>
+            <p>Top - Ljusblå</p>
           </Link>
         </div>
         <div>
           <Link to="/ProductPage">
             <img
-              src="https://gyazo.com/eb4c1a53c7621efa932c6b66fa25ddd4.jpg"
+              src="https://gyazo.com/82e3222b7c474921cde322e503b69a88.png"
               alt="Jeans"
             />
-            <p>Jeans - Grå</p>
+            <p>T-Shirt - Grå</p>
           </Link>
         </div>
         <div>
           <Link to="/ProductPage">
             <img
-              src="https://gyazo.com/7120ce79ad3c3eac17559bc2d7199d23.png"
+              src="https://gyazo.com/82e3222b7c474921cde322e503b69a88.png"
               alt="Jeans"
             />
-            <p>Jeans - Mörkgrå</p>
+            <p>Shorts - Mörkgrå</p>
           </Link>
         </div>
       </div>
@@ -76,4 +75,4 @@ function Jeans() {
   );
 }
 
-export default Jeans;
+export default Sale;
