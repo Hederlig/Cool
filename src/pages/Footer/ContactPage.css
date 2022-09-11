@@ -19,3 +19,7 @@
 p {
   text-align: center;
 }
+
+.col-md-4 {
+  width: 80%;
+}

@@ -1,5 +1,4 @@
 import Sidebar from "../../components/Header/Sidebar";
-import Hero from "../../components/Hero/Hero";
 import Footer from "../../components/Footer/Footer";
 import TopBar from "../../components/Header/TopBar/TopBar";
 import Form from "react-bootstrap/Form";
@@ -44,7 +43,6 @@ const [value,setValue]=useState('Subject');
     <div>
       <TopBar />
       <Sidebar />
-      <Hero />
       <DropdownButton
         id="dropdown-basic-button"
         title={value}
@@ -52,6 +50,7 @@ const [value,setValue]=useState('Subject');
         style={{
           display: "flex",
           justifyContent: "center",
+          margin: "25px 10px"
         }}
       >
         <Dropdown.Item as="button" eventKey="Question">
@@ -85,9 +84,10 @@ const [value,setValue]=useState('Subject');
                 <Form.Label
                   style={{
                     display: "block",
+                    margin: "30px"
                   }}
                 >
-                  Whats on your mind?
+                
                 </Form.Label>
 
                 <Form.Control

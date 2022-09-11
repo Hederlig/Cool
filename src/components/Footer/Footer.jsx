@@ -44,9 +44,9 @@ const Footer = () => {
         <BsIcons.BsReddit></BsIcons.BsReddit>
       </SocialBar>
       <div className="info">
-        <b>OM OSS</b>
-        <b>KÖPVILLKOR</b>
-        <b>FRAKTINFO</b>
+        <Link to="#">OM OSS</Link>
+        <Link to="#">KÖPVILLKOR</Link>
+        <Link to="#">FRAKTINFO</Link>
         <Link to="/contacts">KONTAKT</Link>
       </div>
       <div className="paymethods">

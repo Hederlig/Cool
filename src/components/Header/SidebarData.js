@@ -72,15 +72,15 @@ export const SidebarData = [
     subNav: [
       {
         title: 'Killar',
-        path: '/skor/killar'
+        path: '#'
       },
       {
         title: 'Tjejer',
-        path: '/skor/tjejer'
+        path: '#'
       },
       {
         title: 'Se alla',
-        path: '/skor/se alla'
+        path: '#'
       }
     ]
   }
