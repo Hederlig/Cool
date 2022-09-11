@@ -29,6 +29,7 @@ const CreateProduct = () => {
                   <option>Option 1</option>
                   <option>Option 2</option>
                   <option>Option 3</option>
+                  <option>"Alla produkter kommer visas i denna lista"</option>
                 </select>
               </div>
             </div>
