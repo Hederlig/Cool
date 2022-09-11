@@ -4,7 +4,7 @@ import './LoginForm.css'
 const LoginForm = () => {
   return (
     <div className='login-container'>
-      <input type="checkbox" id="show" />
+      <input type="checkbox" className='login-checkbox' id="show" />
       <label for="show" className="show-btn">Login</label>
 
       <div className='container'>

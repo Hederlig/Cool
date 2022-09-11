@@ -10,7 +10,7 @@
     left: 0px;
 }
 
-input[type="checkbox"]{
+.login-checkbox{
     position: absolute;
     top: -100px;
     display: none;
