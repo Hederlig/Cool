@@ -108,14 +108,15 @@ const [value,setValue]=useState('Subject');
         </Row>
 
         <Form.Group className="mb-3">
-          <InputGroup hasValidation>
-            <Form.Check
-              required
-              label="Im not a robot"
-              feedback="You must agree before submitting."
-              feedbackType="invalid"
-              pattern="[0-5]*"
-            />
+
+        <InputGroup hasValidation>
+        <Form.Check
+            required
+            label="Im not a robot"
+            feedback="You must agree before submitting."
+            feedbackType="invalid"
+            pattern="[0-5]*"
+          />
           </InputGroup>
           <InputGroup>
             <Button type="submit" onSelect={handleSelect}>
