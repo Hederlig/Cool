@@ -17,7 +17,8 @@ const MyPage = () => {
         <Link to="#">Returer</Link>
         <Link to="#">Presentkort</Link>
         <h1>-- Admin --</h1>
-        <Link to="/createproduct">Skapa ny produkt</Link>
+        <Link to="/createcategory">Skapa ny kategori</Link>
+        <Link to="/createproduct">Lägg till produkt</Link>
         <Link to="#">Ändra produkt</Link>
         <Link to="#">Ta bort produkt</Link>
       </div>

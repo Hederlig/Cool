@@ -21,6 +21,7 @@ import FTops from "./pages/Navbar/Female/FTops";
 import Contact from "./pages/Footer/Contact"
 import MyPage from "./pages/Header/MyPage";
 import CreateProduct from "./pages/Header/Admin/CreateProduct";
+import CreateCategory from './pages/Header/Admin/CreateCategory'
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
             <Route path="/contacts" element={<Contact />}  />
             <Route path="/mypage" element={<MyPage />} />
             <Route path="/createproduct" element={<CreateProduct />} />
+            <Route path="/createcategory" element={<CreateCategory />} />
           </Routes>
       </BrowserRouter>
     </>

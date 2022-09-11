@@ -25,7 +25,7 @@ const CreateProduct = () => {
             <div class="row mb-3">
               <div class="col">
                 <select name="brand" class="form-control">
-                  <option disabled selected value> -- Välj Märke -- </option>
+                  <option disabled selected value> -- Välj Kategori -- </option>
                   <option>Option 1</option>
                   <option>Option 2</option>
                   <option>Option 3</option>
